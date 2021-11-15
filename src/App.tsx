@@ -1,6 +1,4 @@
 import { useState } from 'react';
-
-import logo from './logo.svg';
 import './App.css';
 
 export const App = () => {
@@ -8,15 +6,8 @@ export const App = () => {
 
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Running on Docker...</p>
-        <p>
-          <button type="button" onClick={() => setCount((count) => count + 1)}>
-            count: {count}
-          </button>
-        </p>
-      </header>
+      <h1>Hello.</h1>
+      <button onClick={() => setCount(count + 1)}>count: {count}</button>
     </div>
   );
 };
