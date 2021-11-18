@@ -6,6 +6,6 @@ services: #2
     volumes:
       - ./:/app #6
     working_dir: /app #7
-    command: sh -c "npm install && npm run dev" #8
+    command: sh -c "yarn install && yarn dev" #8
     ports:
       - '3000:3000' #9
