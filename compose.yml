@@ -1,7 +1,7 @@
 services:
   app:
-    container_name: react-app-container
-    image: node:16-alpine
+    container_name: react-typescript
+    image: node:18-alpine
     volumes:
       - ./:/app
     working_dir: /app
