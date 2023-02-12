@@ -2,6 +2,8 @@
 
 React and TypeScript development environment on Docker.
 
+<img width="480" src="https://storage.googleapis.com/zenn-user-upload/eef7b70a7899-20230212.png" />
+
 ## Usage
 
 Note that Docker daemon is already running...
