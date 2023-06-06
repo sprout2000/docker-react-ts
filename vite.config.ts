@@ -9,6 +9,7 @@ export default defineConfig({
     globals: true,
     environment: 'jsdom',
     coverage: {
+      provider: 'c8',
       enabled: true,
       reporter: ['text'],
     },
